@@ -1,0 +1,4 @@
+index.js -> Responsible for calling all layers
+
+services ->
+  -> All business logic
