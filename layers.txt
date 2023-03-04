@@ -1,4 +1,21 @@
-index.js -> Responsible for calling all layers
+
+workers -> Background process
+  -> All heavy logic that involves CPU
+  -> Everything that can freeze the screen
+  -> Call business rule from services
 
 services ->
   -> All business logic
+  -> All external calls (API, files, databases)
+
+views ->
+  -> All interaction with the DOM
+
+controllers ->
+  -> Intermediary between (services and/or workers) and views
+
+factories ->
+  -> Import the dependencies and create the final object
+  -> Returns the function that init the flow of that component
+
+index.js -> Responsible for calling all layers
