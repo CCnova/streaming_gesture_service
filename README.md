@@ -6,12 +6,12 @@ Marque esse projeto com uma estrela 🌟
 
 ## Pre-reqs
 
-- Este projeto foi criado usando Node.js v19.6
+- This project was created using Node.js v19.6
 
 ## Running
 
 - Execute `npm ci` para restaurar os pacotes
-- Execute `npm start` e em seguida vá para o seu navegador em [http://localhost:3000](http://localhost:3000) para visualizar a página acima
+- Execute `npm start` and open your browser in [http://localhost:3000](http://localhost:3000) to see the page above
 
 ## Checklist Features
 
@@ -28,7 +28,7 @@ Marque esse projeto com uma estrela 🌟
   - [x] - Deve ser possivel de reproduzir ou pausar videos com o piscar de olhos 😁
   - [x] - Todo processamento de Machine Learning deve ser feito via Web worker
 
-### Desafios
+### Challenges
 
 - [] - Diferenciar piscada de olhos entre olho direito e esquerdo e atualizar log para mostrar qual olho que piscou.
 - [] - Reconhecer gestos de mãos individuais e printar no log
